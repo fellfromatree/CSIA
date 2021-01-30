@@ -29,6 +29,12 @@ public class averageAge {
 		// Call the calcAverage method to display the average age of the file
 		System.out.println("Average age of the class is "+calcAverage());
 		
+		System.out.println("Full list of names:");
+		for(int x=0; x<names.length;x++)
+		{
+			System.out.println(names[x]);
+		}
+		
 		// Call the writeAverages method, which creates a new file with the average age
 		// and the names of those older than average.
 		writeAverages();
