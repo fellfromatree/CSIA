@@ -32,7 +32,7 @@ public class averageAge {
 		System.out.println("Full list of names:");
 		for(int x=0; x<names.length;x++)
 		{
-			System.out.println(names[x]);
+			System.out.println("Person ",x+1, names[x]);
 		}
 		
 		// Call the writeAverages method, which creates a new file with the average age
